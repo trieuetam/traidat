@@ -1,0 +1,227 @@
+/* Mobile & Tablet */
+@media (max-width: 1023px){
+    .status-pc{
+        display: none;
+    }
+
+    ::-webkit-scrollbar{
+        display: none;
+    }
+    ::-webkit-scrollbar-track{
+        display: none;
+    }
+    ::-webkit-scrollbar-thumb{
+        display: none;
+    }
+/*navbar (Menu chính)*/
+.status{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    background: rgba(109, 109, 109, 0.76);
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.btn{
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    padding: 5px 10px;
+    font-size: 25px;
+    color: #ccc;
+    text-align: center;
+    cursor: pointer;
+    transition: left 0.4s ease;
+}
+.btn:hover{
+    color: orange;
+}
+
+span.xoa{
+    display: block;
+}
+span.xoa.v{
+    display: none;
+}
+i.xoa{
+    display: none;
+}
+i.xoa.y{
+    display: block;
+}
+
+a.red{
+    width: 150px;
+    height: 50px;
+    margin-top: -10px;
+}
+a.red img{
+    width: 100%;
+    height: 100%;
+}
+
+.btn2{
+    display: flex;
+    background: transparent;
+    align-items: center;
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+    color: #ccc;
+    cursor: pointer;
+    justify-content: center;
+}
+.btn2 span{
+    padding: 0 10px;
+}
+.btn2:hover{
+    color: orange;
+}
+
+.search{
+    top: -300px;
+    left: 0;
+    position: absolute;
+    background: black;
+    width: 100%;
+    height: 50px;
+    /* background: gray; */
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: top 0.4s ease;
+}
+.search.down{
+    top: -1px;
+}
+.nhap{
+    display: flex;
+    width: 95%;
+}
+i.vn{
+    margin-left: -35px;
+    color: black;
+    margin-top: 16px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.search input{
+    padding: 10px 35px 10px 10px;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 20px;
+    margin: 0 5px;
+    margin-top: 2.5px;
+}
+span.form{
+    background: transparent;
+    align-items: center;
+    font-size: 25px;
+    color: #ccc;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+span.form:hover{
+    color: orange;
+}
+
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px){
+    .sidebar{
+        width: 50%;
+    }
+
+}
+
+/* Mobile */
+@media (max-width: 739px){
+    .sidebar{
+        width: 70%;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+    .titi{
+        display: block;
+        padding-left: 0px;
+        text-align: center;
+    }
+    .role{
+        display: block;
+        font-size: 20px;
+        justify-content: center;
+        padding-bottom: 5px;
+        font-size: 17px;
+    }
+    h1{
+        font-size: 25px;
+    }
+    h2{
+        font-size: 23px;
+    }
+    a.user{
+        border-right: none;
+    }
+    img.hai{
+        padding-left: 18px;
+    }
+    a.trang{
+        margin-right: 10px;
+    }
+    a.trang1{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    nav ul li a {
+        padding-left: 20px;
+    }
+    .header {
+        width: 100%;
+        border: none;
+        padding: 10px;
+    }
+    p.to{
+        font-size: 23px;
+    }
+    p.nho{
+        font-size: 20px;
+    }
+    ul.boder{
+        font-size: 17px;
+        padding: 10px 0px 10px 40px;
+    }
+    span.main{
+        display: block;
+    }
+    a.log{
+        margin-bottom: 10px;
+    }
+    a.log:last-child{
+        margin-bottom: 0;
+    }
+}
+
+/*duoi 400px*/
+@media (max-width: 400px){
+    .role{
+        display: block;
+    }
+    .user{
+        justify-content: center;
+    }
+    a.user{
+        border-right: none;
+    }
+
+}
