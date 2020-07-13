@@ -299,7 +299,7 @@ span.x:hover{
 .text{
     font-size: 25px;
     font-weight: 600;
-    margin-top: 10%;
+    margin-top: 50px;
     line-height: 60px;
     background: rgba(41, 41, 41, 0.5);
     letter-spacing: 2px;
@@ -384,12 +384,10 @@ ul.list li a span.rotate{
 }
 /*Nội dung phần thân*/
 .coment{
-    max-width: 1200px;
-    display: block;
     height: auto;
     border: 1px solid #e6e6e6;
     padding: 20px 20px 0 20px;
-        box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
     margin-bottom: 20px; 
 }
 .coment2{

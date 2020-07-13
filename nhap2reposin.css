@@ -1,5 +1,8 @@
 /* Mobile & Tablet */
 @media (max-width: 1023px){
+    *{
+        overflow-x: hidden;
+    }
     .x1{
         width: 100%;
     }
@@ -183,11 +186,21 @@ span.form:hover{
         overflow-y: scroll;
         overflow-x: hidden;
     }
+    .coment{
+        padding: 0;
+    }
     .titi{
         display: block;
-        padding-left: 0px;
+        padding: 5px 0;
         text-align: center;
     }
+.col-lg-8.col-md-12.col-sm-12{
+    padding: 0;
+}   
+.x1{
+    box-shadow: none;
+    width: 100%;    
+}
     .role{
         display: block;
         font-size: 20px;
@@ -205,7 +218,8 @@ span.form:hover{
         border-right: none;
     }
     img.hai{
-        padding-left: 18px;
+        padding-left: 0;
+        width: 240px;
     }
     a.trang{
         margin-right: 10px;
@@ -233,38 +247,25 @@ span.form:hover{
         padding: 10px 0px 10px 40px;
     }
 
-}
-.footer-bar{
-    bottom: 0;
-    position: fixed;
-    height: auto;
-    width: 70%;
-    background-color: #444;
-    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
-}
-.footer-bar .info-list{
-    display: flex;
-    justify-content: center;
-}
-.footer-bar .info-list span{
-    color: white;
-    font-size: 40px;
-    margin: 10px;
-}
-.footer-bar .info-list span:hover{
-    color: orange;
-    cursor: pointer;
-}
-/*duoi 400px*/
-@media (max-width: 400px){
-    .role{
-        display: block;
     }
-    .user{
+    .footer-bar{
+        bottom: 0;
+        position: fixed;
+        height: auto;
+        width: 70%;
+        background-color: #444;
+        box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+    }
+    .footer-bar .info-list{
+        display: flex;
         justify-content: center;
     }
-    a.user{
-        border-right: none;
+    .footer-bar .info-list span{
+        color: white;
+        font-size: 40px;
+        margin: 10px;
     }
-
-}
+    .footer-bar .info-list span:hover{
+        color: orange;
+        cursor: pointer;
+    }
