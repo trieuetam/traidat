@@ -1,4 +1,4 @@
-$('.btn').click(function(){
+$('.btn-1').click(function(){
     $('span.xoa').toggleClass('v');
     $('i.xoa').toggleClass('y');
     $('.sidebar').toggleClass('active');
@@ -20,6 +20,11 @@ $('.coment').click(function(){
     $('.search').removeClass('down');
 });
 
+$('footer').click(function(){
+
+    $('.search').removeClass('down');
+});
+
 $('span.x').click(function(){
 
     $('.sidebar').toggleClass('active');
@@ -36,7 +41,7 @@ $('.dark').click(function(){
 });
 
 $('.feat-btn').click(function(){
-    $('nav ul .child').toggleClass('active')
+    $('nav ul .childbar').toggleClass('active')
     $('nav ul .first').toggleClass('rotate')
 });
 
@@ -44,3 +49,4 @@ $('.serv-btn').click(function(){
     $('nav ul .child2').toggleClass('active2')
     $('nav ul .second').toggleClass('rotate')
 });
+
