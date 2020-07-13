@@ -270,6 +270,7 @@ i.far.fa-sun:hover{
     display: none;
     position: fixed;
     z-index: 6;
+    top: 50px;
     width: 350px;
     height: 100%;
     overflow-y: scroll;
@@ -285,7 +286,7 @@ i.far.fa-sun:hover{
 span.x{
     color: white;
     position: absolute; 
-    top: 65px;
+    top: 18px;
     right: 20px;
     font-size: 25px;
     cursor: pointer;
@@ -299,7 +300,6 @@ span.x:hover{
 .text{
     font-size: 25px;
     font-weight: 600;
-    margin-top: 50px;
     line-height: 60px;
     background: rgba(41, 41, 41, 0.5);
     letter-spacing: 2px;
