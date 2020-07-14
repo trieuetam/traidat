@@ -25,7 +25,7 @@ $('footer').click(function(){
     $('.search').removeClass('down');
 });
 
-$('span.x').click(function(){
+$('i.x').click(function(){
 
     $('.sidebar').toggleClass('active');
     $('.dark').toggleClass('on');

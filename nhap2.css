@@ -30,7 +30,12 @@ body{
     box-shadow: 0 0 5px rgba(0,0,0,1);
 }
 
-
+h1{
+    font-size: 25px!important;
+}
+h2{
+    font-size: 1.5rem!important;
+}
 .abc{
     width: 10px;
     height: 10px;
@@ -283,7 +288,7 @@ i.far.fa-sun:hover{
     left: 0px;
 }
 
-span.x{
+i.x{
     color: white;
     position: absolute; 
     top: 18px;
@@ -292,7 +297,7 @@ span.x{
     cursor: pointer;
 }
 
-span.x:hover{
+i.x:hover{
     color: orange;
 }
 
@@ -312,12 +317,14 @@ nav ul{
 }
 
 
-nav ul li a{
+nav ul li .list-click,
+.list li a.vg{
     position: relative;
     color: white;
     text-decoration: none;
     font-size: 20px;
     font-weight: 500;
+    cursor: pointer;
     display: block;
     width: 100%;
     line-height: 60px;
@@ -325,7 +332,8 @@ nav ul li a{
     border-left: 3px solid transparent;
     border-bottom: 1px solid rgba(255,255,255,0.1);
 }
-nav ul li a:hover{
+nav ul li .list-click:hover,
+.list li a.vg:hover{
     color: orange;
     background: rgb(77, 76, 76);
     border-left-color: orange;
@@ -351,17 +359,24 @@ nav ul ul li{
     border-bottom: none;
 }
 nav ul ul li a{
-    font-size: 15px;
-    color: #ccc;
+    position: relative;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 400;
+    display: block;
+    width: 100%;
     line-height: 60px;
-    background: rgb(44, 44, 44);
+    padding-left: 40px;
+    border-left: 3px solid transparent;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
 }
 
 nav ul ul li a:hover{
     color: orange;
     background: rgb(77, 76, 76);
 }
-ul.list li a span{
+ul.list li .list-click span{
     position: absolute; 
     top: 50%;
     right: 20px;
@@ -369,7 +384,7 @@ ul.list li a span{
     font-size: 25px;
     transition: 0.5s;
 }
-ul.list li a span.rotate{
+ul.list li .list-click span.rotate{
     transform: translateY(-50%) rotate(180deg);
 }
 .footer-bar{
@@ -514,7 +529,7 @@ a{
 }
 .role{
     display: flex;
-    font-size: 25px;
+    font-size: 20px;
 }
 .user{
     display: flex;
@@ -524,9 +539,7 @@ a{
     display: inline-flex;
     color: black;
 }
-a.user{
-    padding: 0 5px;
-}
+
 
 i.fas.fa-user.left,
 i.fas.fa-clock.left
@@ -871,4 +884,7 @@ p.fixxx{
 svg.svg-inline--fa.fa-code.fa-w-20,
 svg.svg-inline--fa.fa-css3.fa-w-16{
     width: 50px;
+}
+h3{
+    line-height: none;
 }
