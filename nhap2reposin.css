@@ -212,20 +212,17 @@ span.form:hover{
     }
     .titi{
         display: block;
-        padding: 5px 0;
-        text-align: center;
     }
 .col-lg-8.col-md-12.col-sm-12{
     padding: 0;
-  
+}  
 .x1{
     box-shadow: none;
     width: 100%;    
 }
     .role{
-        display: block;
+        display: flex;
         font-size: 20px;
-        justify-content: center;
         padding-bottom: 5px;
         font-size: 17px;
     }
@@ -239,10 +236,7 @@ span.form:hover{
         border-right: none;
     }
     img.hai{
-        padding-left: 0;
-        width: 240px;
-        display: flex;
-        margin: 0 auto;
+        width: 100%!important;
     }
     a.trang{
         margin-right: 10px;
