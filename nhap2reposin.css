@@ -1,6 +1,11 @@
 /* Mobile & Tablet */
 @media (max-width: 1023px){
-
+    .carousel-caption{
+        margin-top: 0;
+    }
+    .titi a.hover-black:hover::after{
+        display: none;
+    }
     .x1{
         width: 100%;
         margin-top: 50px; 
@@ -283,7 +288,7 @@ span.form:hover{
         border-radius: .2rem;    
     }
     .main-content{
-        padding: 20px;
+        padding: 10px 20px;
     }
     .footer-bar{
         width: 70%;

@@ -501,20 +501,26 @@ ul.list li .list-click span.rotate{
     height: auto;
     padding: 10px;
     margin: 10px auto;
+    position: relative;
 }
 .titi:first-child{
     margin: 0!important;
 }
-.titi a{
-    transition: 0.3s;
-}
-.titi a:hover{
-    transform: scale(1.1);
-}
+
+
 img.hai{
     width: 280px;
     height: 195px;
-    position: relative;
+
+}
+.titi a.hover-black:hover::after{
+    content: "";
+    width: 280px;
+    height: 195px;   
+    background: rgba(0,0,0,0.5);
+    left: 0;
+    position: absolute;
+    margin: 0 0 0 10px;
 }
 
 span.title{
@@ -855,6 +861,7 @@ p.fixxx{
 .carousel-caption{
     bottom: none!important;
     top: 50%;
+    margin-top: 70px;
     transform: translateY(-50%);
 }
 .carousel-caption h1{
@@ -889,6 +896,16 @@ p.fixxx{
 svg.svg-inline--fa.fa-code.fa-w-20,
 svg.svg-inline--fa.fa-css3.fa-w-16{
     width: 50px;
+}
+i.fab.fa-js{
+    color: orange;
+    width: 50px;
+    font-size: 50px;
+}
+i.fab.fa-php,
+i.fab.fa-vuejs{
+    font-size: 60px;
+    color: green;
 }
 h3{
     line-height: none;
