@@ -135,7 +135,6 @@ i.far.fa-sun:hover{
     height: 40px;
     display: flex;
     margin: 5px 0px 5px 5px;
-    border: 1px solid rgba(0,0,0,0.1); 
 }
 
 
@@ -395,6 +394,15 @@ ul.list li .list-click span.rotate{
     display: block;
     padding: 0 0 0 15px;
 }
+.ttc a{
+    line-height: 1.6rem;
+    height: 4.7rem;
+    overflow: hidden;
+    display: block;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
 .d-flex h6{
     padding: 2px;
 }
@@ -402,7 +410,7 @@ ul.list li .list-click span.rotate{
 .coment{
     height: auto;
     border: 1px solid #e6e6e6;
-    padding: 20px 20px 0 20px;
+    padding: 20px 10px 0 10px;
     box-shadow: 0 0 5px rgba(0,0,0,0.1);
     margin-bottom: 20px; 
 }
@@ -492,9 +500,7 @@ ul.list li .list-click span.rotate{
     width: 100%;
     height: auto;
     padding: 10px;
-    margin: 30px 0;
-    border: 1px solid rgba(0,0,0,0.1);
-    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+    margin: 10px auto;
 }
 .titi:first-child{
     margin: 0!important;
@@ -670,7 +676,7 @@ footer{
 }
 .main-content .box{
   flex-basis: 50%;
-  padding: 10px 20px;
+  padding: 10px 0;
 }
 .box h2{
   font-size: 1.125rem;
@@ -821,9 +827,11 @@ textarea{
   }
 }
 p.fixxx{
-    text-align: center;
     font-size: 15px;
     padding: 10px;  
+}
+.social{
+    text-align: center;
 }
 .box-boder a img:hover{
     transition: 0.3s;
@@ -845,7 +853,7 @@ p.fixxx{
     height: 100%;
 }
 .carousel-caption{
-    position: absolute;
+    bottom: none!important;
     top: 50%;
     transform: translateY(-50%);
 }

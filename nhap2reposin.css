@@ -50,7 +50,7 @@
     top: 0;
     width: 100%;
     height: 50px;
-    background: rgba(109, 109, 109, 0.76);
+    background: #444;
     display: flex;
     padding: 5px;
     justify-content: space-between;
@@ -166,9 +166,9 @@ span.form:hover{
     color: orange;
 }
     .footer-bar{
-    bottom: 35px;
-    position: absolute;
-    width: 100%;
+    bottom: 0px;
+    position: fixed;
+    width: 50%;
     background-color: #444;
     box-shadow: 0px 0px 5px 0px rgba(0,0,0,0);
     }
@@ -178,7 +178,7 @@ span.form:hover{
     }
     .footer-bar .info-list span{
         color: white;
-        font-size: 40px;
+        font-size: 35px;
         margin: 10px;
     }
     .footer-bar .info-list span:hover{
@@ -195,7 +195,9 @@ span.form:hover{
     .sidebar{
         width: 50%;
     }
-
+    .footer-bar{
+        width: 50%!important;
+    }
 
 
 }
@@ -207,9 +209,7 @@ span.form:hover{
         overflow-y: scroll;
         overflow-x: hidden;
     }
-    .coment{
-        padding: 0;
-    }
+
     .titi{
         display: block;
     }
@@ -237,6 +237,7 @@ span.form:hover{
     }
     img.hai{
         width: 100%!important;
+        height: auto;
     }
     a.trang{
         margin-right: 10px;
@@ -281,5 +282,10 @@ span.form:hover{
         line-height: 1.5;
         border-radius: .2rem;    
     }
-
+    .main-content{
+        padding: 20px;
+    }
+    .footer-bar{
+        width: 70%;
+    }
 } 
