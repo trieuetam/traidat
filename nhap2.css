@@ -344,7 +344,6 @@ nav ul li .list-click,
     width: 100%;
     line-height: 60px;
     padding-left: 40px;
-    border-left: 3px solid transparent;
     border-bottom: 1px solid rgba(255,255,255,0.1);
 }
 nav ul li .list-click:hover,
