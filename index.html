@@ -77,9 +77,11 @@
                     </ul>
                 </div>
         </div> 
-            <div id="darkmode">
-                <i class="far fa-sun"></i>
-            </div>
+                <div class="switch" id="switch">
+                    <div class="toggle-switch" onclick="this.classList.toggle('active')">
+                        <div class="inner-circle"></div>
+                    </div>
+                </div>
             <div class="box1">
                 <div class="ip-data">
                   <input type="text" required="" placeholder="Nhập để tìm kiếm">
@@ -102,6 +104,7 @@
             <a href="index.html" class="red">
                 <img src="https://thegioidohoa.com/wp-content/uploads/2017/10/nhung-mau-logo-thiet-ke-cong-ty-xay-dung-dep-ban-khong-the-bo-lo-4.png" alt="">
             </a>
+            
             <div class="btn2">
                 <span class="fas fa-search"></span>
                 <!-- <span class="fas fa-users"></span>
@@ -135,6 +138,11 @@
                 
             </div>
             <ul class="list">
+                <div class="switch" id="switch">
+                    <div class="toggle-switch" onclick="this.classList.toggle('active')">
+                        <div class="inner-circle"></div>
+                    </div>
+                </div>
                 <li><span class="list-click" href="#"><i class="fas fa-home"></i> Trang Chủ</span>
                     <i class="fas fa-times x"></i></li>
 
@@ -164,16 +172,6 @@
                 <li><a class="vg" href="#"><i class="fas fa-phone    "></i> Contact</a></li>
                 <li><a class="vg" href="#"><i class="fas fa-info-circle    "></i> Abouts</a></li>
 
-                    <div class="footer-bar">
-                        <div class="info-list">
-                            <div class="social">
-                                          <a href="https://facebook.com/coding.np"><span class="fab fa-facebook-f"></span></a>
-                                          <a href="#"><span class="fab fa-twitter"></span></a>
-                                          <a href="https://instagram.com/coding.np"><span class="fab fa-instagram"></span></a>
-                                          <a href="https://youtube.com/c/codingnepal"><span class="fab fa-youtube"></span></a>
-                                        </div>
-                        </div>
-                    </div>
             </ul>
         </nav> 
 
@@ -727,17 +725,17 @@ Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso
     <div class="row text-center">
 
          <div class="col-sm-6 col-md-4">
-            <svg class="svg-inline--fa fa-code fa-w-20" aria-hidden="true" data-prefix="fas" data-icon="code" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" data-fa-i2svg=""><path fill="currentColor" d="M278.9 511.5l-61-17.7c-6.4-1.8-10-8.5-8.2-14.9L346.2 8.7c1.8-6.4 8.5-10 14.9-8.2l61 17.7c6.4 1.8 10 8.5 8.2 14.9L293.8 503.3c-1.9 6.4-8.5 10.1-14.9 8.2zm-114-112.2l43.5-46.4c4.6-4.9 4.3-12.7-.8-17.2L117 256l90.6-79.7c5.1-4.5 5.5-12.3.8-17.2l-43.5-46.4c-4.5-4.8-12.1-5.1-17-.5L3.8 247.2c-5.1 4.7-5.1 12.8 0 17.5l144.1 135.1c4.9 4.6 12.5 4.4 17-.5zm327.2.6l144.1-135.1c5.1-4.7 5.1-12.8 0-17.5L492.1 112.1c-4.8-4.5-12.4-4.3-17 .5L431.6 159c-4.6 4.9-4.3 12.7.8 17.2L523 256l-90.6 79.7c-5.1 4.5-5.5 12.3-.8 17.2l43.5 46.4c4.5 4.9 12.1 5.1 17 .6z"></path></svg><!-- <i class="fas fa-code"></i> -->
+            <i class="fab fa-html5"></i>
             <h3>HTML5</h3>
             <p>Built with the lastest version of HTML, HTML5</p>
          </div>
          <div class="col-sm-6 col-md-4">
-            <svg class="svg-inline--fa fa-code fa-w-20" aria-hidden="true" data-prefix="fas" data-icon="code" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" data-fa-i2svg=""><path fill="currentColor" d="M278.9 511.5l-61-17.7c-6.4-1.8-10-8.5-8.2-14.9L346.2 8.7c1.8-6.4 8.5-10 14.9-8.2l61 17.7c6.4 1.8 10 8.5 8.2 14.9L293.8 503.3c-1.9 6.4-8.5 10.1-14.9 8.2zm-114-112.2l43.5-46.4c4.6-4.9 4.3-12.7-.8-17.2L117 256l90.6-79.7c5.1-4.5 5.5-12.3.8-17.2l-43.5-46.4c-4.5-4.8-12.1-5.1-17-.5L3.8 247.2c-5.1 4.7-5.1 12.8 0 17.5l144.1 135.1c4.9 4.6 12.5 4.4 17-.5zm327.2.6l144.1-135.1c5.1-4.7 5.1-12.8 0-17.5L492.1 112.1c-4.8-4.5-12.4-4.3-17 .5L431.6 159c-4.6 4.9-4.3 12.7.8 17.2L523 256l-90.6 79.7c-5.1 4.5-5.5 12.3-.8 17.2l43.5 46.4c4.5 4.9 12.1 5.1 17 .6z"></path></svg><!-- <i class="fas fa-code"></i> -->
+            <i class="fab fa-css3"></i>
             <h3>CSS3</h3>
             <p>Built with the lastest version of CSS, CSS3</p>
          </div>
          <div class="col-sm-12 col-md-4">
-            <svg class="svg-inline--fa fa-css3 fa-w-16" aria-hidden="true" data-prefix="fab" data-icon="css3" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M480 32l-64 368-223.3 80L0 400l19.6-94.8h82l-8 40.6L210 390.2l134.1-44.4 18.8-97.1H29.5l16-82h333.7l10.5-52.7H56.3l16.3-82H480z"></path></svg><!-- <i class="fab fa-css3"></i> -->
+            <i class="fab fa-bootstrap"></i>
             <h3>BOOTSTRAP</h3>
             <p>Built with the lastest version of Bootstrap, Bootstrap 4</p>
          </div>
@@ -822,12 +820,43 @@ Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso
         </div>
         </footer>    
                 <center>
-                  <span class="credit">Created By <a href="https://youtube.com/c/codingnepal">Trieu</a> | </span>
+                  <span class="credit">Created By <a href="https://youtube.com/c/codingnepal" style="color: var(--mainColor)!important;">Trieu</a> | </span>
                   <span class="far fa-copyright"></span> 2020 All rights reserved.
                 </center>
     </div>  
     </div>      
 </div>
     <script src="main.js"></script>
+    <script>
+            //Darkmode
+    let darkMode = localStorage.getItem('darkMode');
+    const darkModeToggle = document.querySelector('#switch');
+
+    const enableDarkMode = () => {
+        document.body.classList.add('darkmode');
+        localStorage.setItem('darkMode', 'enabled')
+    }
+
+    const disableDarkMode = () => {
+        document.body.classList.remove('darkmode');
+        localStorage.setItem('darkMode', null)
+    }
+
+    //tuy chinh load trang co darkmode khong
+    if(darkMode === 'enabled'){
+        enableDarkMode();
+    }
+
+    darkModeToggle.addEventListener('click', () =>{
+        darkMode = localStorage.getItem('darkMode')
+        if(darkMode !== 'enabled'){
+            enableDarkMode();
+        }
+        else{
+            disableDarkMode();
+        }
+    })
+
+    </script>
 </body>
 </html>

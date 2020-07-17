@@ -6,6 +6,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none;
     list-style: none;  
+    color: var(--colorBlack);
 }
 body{
     background: #ccc!important;
@@ -22,11 +23,23 @@ body{
 ::-webkit-scrollbar-thumb{
     background: rgb(56, 56, 56);
 }
+:root{
+    /* Màu chuyển */
+    
+    /* Giao dien toi */
+    --mainColor: orange!important;
+    --mainBackground: orange!important;
+    --colorWhite: white!important;
+    --colorBlack: black!important;
+    --backgroundDarkMode: #333!important;
+    --backgroundWhite: white!important; 
+    --backgroundCustom: #bfbfbf;
+}
 
 .x1{
     width: 1200px;
     margin: 0 auto;
-    background: #f7f7f7;
+    background: var(--colorWhite);
     box-shadow: 0 0 5px rgba(0,0,0,1);
 }
 
@@ -37,6 +50,7 @@ h1{
 h2{
     font-size: 1.5rem!important;
 }
+
 .abc{
     width: 10px;
     height: 10px;
@@ -87,7 +101,7 @@ a.des:before{
   content: "";
   width: 0%;
   height: 2px;
-  background-color: orange;
+  background: var(--mainColor);;
   bottom: 0;
   right: 0;
   transition: all 0.3s ease;
@@ -123,7 +137,7 @@ i.far.fa-sun{
     line-height: 50px;
 }
 i.far.fa-sun:hover{
-    color: orange;    
+    color: var(--mainColor);;    
 }
 #darkmode:hover{
     cursor: pointer;
@@ -181,7 +195,7 @@ i.far.fa-sun:hover{
   content: "";
   height: 100%;
   width: 100%;
-  background: orange;
+  background: var(--mainColor);;
   transform: scaleX(0);
   transform-origin: center;
   transition: transform 0.5s ease;
@@ -213,6 +227,7 @@ i.far.fa-sun:hover{
 }
 .nav ul li .fas{
     margin: 0 5px;
+    color: white;
 }
 .nav ul li a{
   color: white;
@@ -221,7 +236,7 @@ i.far.fa-sun:hover{
 }
 .nav ul li a:hover,
 .nav ul li a.active{
-  color: orange;
+  color: var(--mainColor);;
 }
 .nav ul ul{
   position: absolute;
@@ -280,7 +295,7 @@ i.far.fa-sun:hover{
     height: 100%;
     overflow-y: scroll;
     left: -900px;
-    background: rgb(59, 59, 59);
+    background: var(--backgroundCustom);
     transition: left 0.4s ease;
     box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.5);
 }
@@ -289,7 +304,7 @@ i.far.fa-sun:hover{
 }
 
 i.x{
-    color: white;
+    color: var(--colorBlack);
     position: absolute; 
     top: 18px;
     right: 20px;
@@ -298,7 +313,7 @@ i.x{
 }
 
 i.x:hover{
-    color: orange;
+    color: var(--mainColor);;
 }
 
 
@@ -320,7 +335,7 @@ nav ul{
 nav ul li .list-click,
 .list li a.vg{
     position: relative;
-    color: white;
+    color: var(--colorBlack);
     text-decoration: none;
     font-size: 20px;
     font-weight: 500;
@@ -334,13 +349,13 @@ nav ul li .list-click,
 }
 nav ul li .list-click:hover,
 .list li a.vg:hover{
-    color: orange;
-    background: rgb(77, 76, 76);
-    border-left-color: orange;
+    color: var(--mainColor);;
+    background: rgba(0,0,0,0.5);
+    border-left-color: var(--mainColor);;
     text-decoration: none;
 }
 nav ul li.acc{
-    color: orange;
+    color: var(--mainColor);;
 
 }
 nav ul ul.childbar,
@@ -360,7 +375,7 @@ nav ul ul li{
 }
 nav ul ul li a{
     position: relative;
-    color: white;
+    color: var(--colorBlack);
     text-decoration: none;
     font-size: 17px;
     font-weight: 400;
@@ -373,7 +388,7 @@ nav ul ul li a{
 }
 
 nav ul ul li a:hover{
-    color: orange;
+    color: var(--mainColor);;
     background: rgb(77, 76, 76);
 }
 ul.list li .list-click span{
@@ -387,9 +402,7 @@ ul.list li .list-click span{
 ul.list li .list-click span.rotate{
     transform: translateY(-50%) rotate(180deg);
 }
-.footer-bar{
-    display: none;
-}
+
 .ttc{
     display: block;
     padding: 0 0 0 15px;
@@ -409,15 +422,12 @@ ul.list li .list-click span.rotate{
 /*Nội dung phần thân*/
 .coment{
     height: auto;
-    border: 1px solid #e6e6e6;
-    padding: 20px 10px 0 10px;
+    padding: 20px 10px 10px 10px;
     box-shadow: 0 0 5px rgba(0,0,0,0.1);
-    margin-bottom: 20px; 
 }
 .coment2{
-    border: 1px solid #e6e6e6;
     padding: 20px;
-        box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
 }
 .widget-title{
     position: relative;
@@ -430,7 +440,7 @@ ul.list li .list-click span.rotate{
 .widget-title > h3 {
     float: left;
     font-size: 18px;
-    color: #171c24;
+    color: var(--colorBlack);
     font-weight: 700;
     margin: 0;
 }
@@ -441,7 +451,7 @@ ul.list li .list-click span.rotate{
     bottom: 0;
     width: 40px;
     height: 2px;
-    background-color: #ff3d00;
+    background-color: var(--mainColor);;
     margin: 0 0 -2px;
 }
 .widget-content {
@@ -483,7 +493,7 @@ ul.list li .list-click span.rotate{
     display: block;
     height: 30px;
     background-color: rgba(155,155,155,0.05);
-    color: #666;
+    color: var(--colorBlack);
     font-size: 13px;
     line-height: 23px;
     font-weight: 400;
@@ -547,7 +557,7 @@ a{
 
 .time{
     display: inline-flex;
-    color: black;
+    color: var(--colorBlack);
 }
 
 
@@ -584,7 +594,7 @@ h2 {
 }
 
 a.new h1.title{
-    color: orange;
+    color: var(--mainColor);;
 }
 a.new h1.new-title{
     color: white;
@@ -595,7 +605,7 @@ a.new h1.new-title{
 }
 p.to{
     font-size: 30px;
-    color: orange;
+    color: var(--mainColor);;
 }
 .botom{
     margin-top: 20px;
@@ -632,21 +642,19 @@ ul.boder li.bro{
 }
 span.tag{
     font-size: 30px;
-    color: orange;
+    color: var(--mainColor);;
 }
 a.vien{
     padding: 10px;
     border-radius: 10px;
     background: rgba(0, 0, 0, 0.5);
     margin: 10px 0 50px 0;
-    color: orange;
+    color: var(--mainColor);;
 }
 .cach{
     margin: 20px 0;
 }
-i.fas.fa-user.left {
-    color: black;
-}
+
 .black{
     border-bottom:1px solid black!important;
 }
@@ -672,17 +680,20 @@ i.fas.fa-user.left {
 }
 footer{
   width: 100%;
-  background: #222;
+  background: var(--colorWhite);
 }
 .main-content{
     display: flex;
     margin: auto;
     max-width: 1235px;
-    color: white;
+    color: var(--colorBlack);
 }
 .main-content .box{
   flex-basis: 50%;
   padding: 10px 0;
+}
+.center.box{
+    margin: 0 10px;
 }
 .box h2{
   font-size: 1.125rem;
@@ -706,7 +717,7 @@ footer{
   content: '';
   height: 2px;
   width: 15%;
-  background: orange;
+  background: var(--mainColor);;
   top: -10px;
 }
 .left .content p{
@@ -722,7 +733,7 @@ footer{
 .left .content .social a span{
   height: 40px;
   width: 40px;
-  background: #1a1a1a;
+  background: #6e6e6e;
   line-height: 40px;
   text-align: center;
   font-size: 18px;
@@ -730,11 +741,11 @@ footer{
   transition: 0.3s;
 }
 .left .content .social a span:hover{
-  background: orange;
+  background: var(--mainColor);;
 }
 .center .content .fas{
   font-size: 1.4375rem;
-  background: #1a1a1a;
+  background: #6e6e6e;
   height: 45px;
   width: 45px;
   line-height: 45px;
@@ -744,12 +755,18 @@ footer{
   cursor: pointer;
 }
 .center .content .fas:hover{
-  background: orange;
+  background: var(--mainColor);;
 }
 .center .content .textf{
   font-size: 1.0625rem;
   font-weight: 500;
   padding-left: 10px;
+}
+
+.place,
+.phone,
+.email{
+  padding: 5px 0;
 }
 
 .right form .textf{
@@ -763,9 +780,9 @@ footer{
 .right form input, .right form .msgForm{
   width: 100%;
   font-size: 1.0625rem;
-  background: #151515;
-  padding-left: 10px;
-  border: 1px solid #222222;
+  background: #444;
+  padding:0 5px;
+  outline: none;
   color: white;
 }
 .right form input:focus,
@@ -783,7 +800,7 @@ footer{
   width: 100%;
   border: none;
   outline: none;
-  background: orange;
+  background: var(--mainColor);;
   font-size: 1.0625rem;
   font-weight: 500;
   cursor: pointer;
@@ -804,7 +821,7 @@ center span{
   color: #656565;
 }
 center a{
-  color: orange;
+  color: var(--mainColor);;
   text-decoration: none;
 }
 center a:hover{
@@ -813,10 +830,11 @@ center a:hover{
 textarea{
     padding: 5px;
     color: white;
-    background-color: #151515;
+    background-color: #444;
     font-size: 18px;
     align-items: center;
     outline: none;
+    border: 1px solid rgba(0,0,0,0.5);
     width: 100%;
 }
 @media screen and (max-width: 900px) {
@@ -835,14 +853,17 @@ textarea{
 p.fixxx{
     font-size: 15px;
     padding: 10px;  
+    color: #007bff;
 }
+.box-boder:hover{
+  margin-top: -10px;
+  transition: 0.5s;
+}
+
 .social{
     text-align: center;
 }
-.box-boder a img:hover{
-    transition: 0.3s;
-    transform: scale(1.1);
-}
+
 /*Footer*/
 .row{
     margin-left: auto!important;
@@ -851,8 +872,6 @@ p.fixxx{
 .box-boder{
     width: 250px; height: auto;
     margin: 0 auto;
-    padding: 10px 10px 0 10px;
-    box-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
 .carousel-inner img{
     width: 100%;
@@ -879,24 +898,23 @@ p.fixxx{
     padding: 1rem!important;
     border-right: 0;
 }
+i.fab.fa-html5{
+  color: orange;
+}
+i.fab.fa-css3{
+  color: #3aa5a5;
+}
+i.fab.fa-bootstrap{
+  color: #924792;
+}
+i.fab.fa-html5,
+i.fab.fa-css3,
+i.fab.fa-bootstrap
+{
+  font-size: 50px;
+}
 
-.fa-code{
-    color: #e54d26;
-}
-.fa-bold{
-    color: #563d7c;
-}
-.fa-css3{
-    color: #2163af;
-}
-.fa-code, .fa-bold, .fa-css3{
-    font-size: 4em;
-    margin: 1rem;
-}
-svg.svg-inline--fa.fa-code.fa-w-20,
-svg.svg-inline--fa.fa-css3.fa-w-16{
-    width: 50px;
-}
+
 i.fab.fa-js{
     color: orange;
     width: 50px;
@@ -909,4 +927,41 @@ i.fab.fa-vuejs{
 }
 h3{
     line-height: none;
+}
+
+.darkmode{
+    --colorBlack: white;
+    --backgroundWhite: black;
+    --colorWhite: #333;
+    --colorBlack: white;
+    --backgroundCustom: #333;
+}
+.switch{
+    position: absolute;
+    left: 100%;
+    top: 0%;
+    transform: translateX(-100%);
+    z-index: 999;
+}
+.toggle-switch{
+    width: 80px;
+    height: 40px;
+    background: #ccc;
+    border-radius: 30px;
+    padding: 5px;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+.toggle-switch > .inner-circle{
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    border-radius: 50%;
+    transition: all 300ms ease-in-out;
+}
+.toggle-switch.active{
+    background: #007bff;
+}
+.toggle-switch.active > .inner-circle{
+    margin-left: 40px;
 }

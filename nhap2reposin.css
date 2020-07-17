@@ -26,9 +26,7 @@
     ::-webkit-scrollbar-thumb{
         display: none;
     }
-    .footer-bar{
-        display: block;
-    }
+
     .sidebar{
         display: block;
     }
@@ -71,7 +69,6 @@
     width: 40px;
     padding: 5px 10px;
     font-size: 25px;
-    color: #ccc;
     text-align: center;
     cursor: pointer;
     transition: left 0.4s ease;
@@ -82,6 +79,7 @@
 
 span.xoa{
     display: block;
+    color: #ccc;
 }
 span.xoa.v{
     display: none;
@@ -91,6 +89,7 @@ i.xoa{
 }
 i.xoa.y{
     display: block;
+    color: #ccc;
 }
 
 a.red{
@@ -110,12 +109,12 @@ a.red img{
     font-size: 25px;
     width: 40px;
     height: 40px;
-    color: #ccc;
     cursor: pointer;
     justify-content: center;
 }
 .btn2 span{
     padding: 0 10px;
+    color: #ccc;
 }
 .btn2:hover{
     color: orange;
@@ -170,26 +169,7 @@ span.form{
 span.form:hover{
     color: orange;
 }
-    .footer-bar{
-    bottom: 0px;
-    position: fixed;
-    width: 50%;
-    background-color: #444;
-    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0);
-    }
-    .footer-bar .info-list{
-        display: flex;
-        justify-content: center;
-    }
-    .footer-bar .info-list span{
-        color: white;
-        font-size: 35px;
-        margin: 10px;
-    }
-    .footer-bar .info-list span:hover{
-        color: orange;
-        cursor: pointer;
-    }
+
     .carousel-indicators{
         display: none!important;
     }
@@ -200,9 +180,7 @@ span.form:hover{
     .sidebar{
         width: 50%;
     }
-    .footer-bar{
-        width: 50%!important;
-    }
+
 
 
 }
@@ -290,7 +268,5 @@ span.form:hover{
     .main-content{
         padding: 10px 20px;
     }
-    .footer-bar{
-        width: 70%;
-    }
+
 } 
