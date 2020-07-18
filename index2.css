@@ -1,0 +1,80 @@
+
+.fixed-bg {
+    background-image: url(img/mountain.jpg);
+    min-height: 400px;
+    max-width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.fixed-bg::after{
+	content: "";
+	position: absolute;
+    min-height: 400px;
+    max-width: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0,0,0,0.2);
+}
+.box-dss{
+	text-align: center;
+	position: absolute;
+	top: 40%;
+	left: 8%;
+}
+.big-node{
+	font-size: 50px;
+	text-shadow: 1px 1px 5px rgba(0,0,0,1);
+	padding: 0 10px;
+	text-align: center;
+}
+
+.title-note{
+	z-index: 1;
+	position: absolute;
+	top: 4%;
+	left: 0;
+	color: white!important;
+}
+.box-click{
+	width: 45px;
+	height: 40px;
+	border-radius: 5px;
+	background: rgba(255,255,255,0.3);
+	margin: 0 10px;
+}
+i.fas.fa-heart:hover{
+	color: #ff3939;
+}
+i.fas.fa-thumbs-up:hover{
+	color: #65ffff;
+}
+i.fas.fa-share-alt:hover{
+	color: #66ff66;
+}
+.box-click i{
+    padding: 7px 0 0 10px;
+	font-size: 25px;
+	color: white;
+	cursor: pointer;
+}
+.cangiua{
+	display: flex;
+	justify-content: center;
+	padding: 10px 0;
+}
+li.d-flex.mr-3{
+	color: white;
+}
+i.far.fa-user.px-1.pt-1,
+i.far.fa-sticky-note.px-1.pt-1,
+i.far.fa-comment-alt.px-1.pt-1{
+	color: white;
+}
+.d-flex.justify-content-center{
+	margin: 10px 0;
+}

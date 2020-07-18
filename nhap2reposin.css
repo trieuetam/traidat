@@ -1,5 +1,5 @@
 /* Mobile & Tablet */
-@media (max-width: 1023px){
+@media (max-width: 992px){
     .carousel-caption{
         margin-top: 0;
     }
@@ -173,6 +173,21 @@ span.form:hover{
     .carousel-indicators{
         display: none!important;
     }
+
+    ul.d-flex.justify-content-center.mt-3{
+        display: block!important;
+    }
+    li.d-flex.mr-3,
+    li.d-flex{
+        justify-content: center;
+    }
+    .container{
+        max-width: none!important;
+    }
+    .big-node{
+        font-size: 30px;
+    }
+
 }
 
 /* Tablet */
@@ -268,5 +283,10 @@ span.form:hover{
     .main-content{
         padding: 10px 20px;
     }
+    button.btn.btn-outline-light.text-dark,
+    button.btn.btn-primary{
+        display: none;
+    }
+
 
 } 

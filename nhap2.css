@@ -44,7 +44,6 @@ body{
 }
 
 h1{
-    font-size: 25px!important;
     margin-bottom: .3rem!important; 
 }
 h2{
@@ -771,7 +770,7 @@ footer{
 .right form .textf{
   font-size: 1.0625rem;
   margin-bottom: 2px;
-  color: white;
+  color: var(--colorBlack);
 }
 .right form .msg{
   margin-top: 10px;
@@ -883,14 +882,12 @@ p.fixxx{
     transform: translateY(-50%);
 }
 .carousel-caption h1{
-    font-size: 25px!important;
-    text-transform: uppercase;
     text-shadow: 1px 1px 15px #000;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 .carousel-caption h3{
-    font-size: 20px!important;
-    font-weight: 500;
-    text-shadow: 1px 1px 10px #000;
+    text-shadow: 1px 1px 5px #000;
     padding-bottom: 1rem;
 }
 .jumbotron{
@@ -943,8 +940,8 @@ h3{
     z-index: 999;
 }
 .toggle-switch{
-    width: 80px;
-    height: 40px;
+    width: 65px;
+    height: 35px;
     background: #ccc;
     border-radius: 30px;
     padding: 5px;
@@ -952,8 +949,8 @@ h3{
     transition: all 300ms ease-in-out;
 }
 .toggle-switch > .inner-circle{
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     background: #fff;
     border-radius: 50%;
     transition: all 300ms ease-in-out;
@@ -962,5 +959,5 @@ h3{
     background: #007bff;
 }
 .toggle-switch.active > .inner-circle{
-    margin-left: 40px;
+    margin-left: 30px;
 }
