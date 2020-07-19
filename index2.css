@@ -1,6 +1,6 @@
 
 .fixed-bg {
-    background-image: url(img/mountain.jpg);
+    background-image: url(mountain.jpg);
     min-height: 400px;
     max-width: 100%;
     background-attachment: fixed;

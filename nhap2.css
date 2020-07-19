@@ -420,7 +420,7 @@ ul.list li .list-click span.rotate{
 /*Nội dung phần thân*/
 .coment{
     height: auto;
-    padding: 20px 10px 10px 10px;
+    padding: 20px 15px 10px 15px!important;
     box-shadow: 0 0 5px rgba(0,0,0,0.1);
 }
 .coment2{
@@ -507,7 +507,7 @@ ul.list li .list-click span.rotate{
     display: flex;
     width: 100%;
     height: auto;
-    padding: 10px;
+    padding: 10px 0;
     margin: 10px auto;
     position: relative;
 }
@@ -527,8 +527,8 @@ img.hai{
     height: 195px;   
     background: rgba(0,0,0,0.5);
     left: 0;
+    right: 0;
     position: absolute;
-    margin: 0 0 0 10px;
 }
 
 span.title{
@@ -685,6 +685,7 @@ footer{
     margin: auto;
     max-width: 1235px;
     color: var(--colorBlack);
+    padding: 10px 30px;
 }
 .main-content .box{
   flex-basis: 50%;
@@ -850,8 +851,11 @@ textarea{
 }
 p.fixxx{
     font-size: 15px;
-    padding: 10px;  
+    padding: 10px 0;  
     color: #007bff;
+}
+p.fixxx:hover{
+    color: #0056b3;
 }
 .box-boder:hover{
   margin-top: -10px;
