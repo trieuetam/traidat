@@ -83,18 +83,118 @@
                   <input type="text" required="" placeholder="Nhập để tìm kiếm">
                   <div class="underline"></div>
                 </div>
-                    <a href="https://trieu.netlify.app/" class="box-user">
+                <div class="d-flex">
+                    <div class="switch d-flex">
+                        <div class="toggle-switch" onclick="this.classList.toggle('active')">
+                            <div class="inner-circle"></div>
+                        </div>
+                    </div>
+                    <button class="box-user">
                       <i class="fas fa-user"></i>
-                    </a>
+                    </button>
+                </div>
+
             </div>                   
         </div>
 
         </div>
-
+    
         
  </div>
 <div class="grid x1">
     <div class="row">
+        <div class="wrapper">
+          <button id="log-click1">X</button>
+          <div class="login-form">
+            <div class="login" onclick="login()">
+              <div id="login2"></div>
+              <span>Đăng Nhập</span>
+            </div>
+            <div class="register" onclick="register()">
+              <span>Đăng Ký</span>
+            </div>
+          </div>
+          <div class="flex">
+          <div id="login">
+
+          <div class="box-type">
+            <i class="fas fa-info"></i>
+          </div>
+          <div class="input-data">
+
+            <input type="text" required>
+            <div class="underline"></div>
+            <label>
+              <i class="fas fa-user"></i>
+              User Name</label>
+          </div>
+          <br>
+          <div class="input-data">
+            <input type="password" required>
+            <div class="underline"></div>
+            <label>
+              <i class="fas fa-lock"></i>
+              Password</label>        
+          </div>
+
+          <div class="flex-1">
+            <label class="flex">
+              <input type="checkbox">
+              <span class="cell">Ghi nhớ</span>
+            </label>
+            <a href="#">Quên mật khẩu?</a>
+          </div>
+          <button class="block">Đăng nhập</button>
+          <hr>
+          <button class="block"><i class="fab fa-facebook-f"></i>Đăng nhập với facebook</button>
+          
+          <button class="block"><i class="fab fa-google-plus-g"></i>Đăng nhập với google</button>
+        </div>
+
+    <div id="register">
+
+      <div class="box-type">
+        <i class="fas fa-info"></i>
+      </div>
+      <div class="input-data">
+
+        <input type="text" required>
+        <div class="underline"></div>
+        <label>
+          <i class="fas fa-user"></i>
+          User Name</label>
+      </div>
+      <br>
+      <div class="input-data">
+        <input type="password" required>
+        <div class="underline"></div>
+        <label>
+          <i class="fas fa-lock"></i>
+          Password</label>        
+      </div>
+<br>
+      <div class="input-data">
+        <input type="password" required>
+        <div class="underline"></div>
+        <label>
+          <i class="fas fa-lock"></i>
+          Nhập lại mật khẩu</label>        
+      </div>
+      <br>
+      <div class="input-data">
+        <input type="email" required>
+        <div class="underline"></div>
+        <label>
+          <i class="fas fa-lock"></i>
+          Nhập email</label>        
+      </div>
+        <br>
+      <button class="block">Đăng ký</button>
+
+    </div>        
+      </div>
+
+  </div>
         <div class="status">
             <div class="btn-1">
                 <span class="fas fa-bars xoa"></span>
@@ -104,11 +204,21 @@
                 <img src="https://thegioidohoa.com/wp-content/uploads/2017/10/nhung-mau-logo-thiet-ke-cong-ty-xay-dung-dep-ban-khong-the-bo-lo-4.png" alt="">
             </a>
 
+            <div class="d-flex">
+                    <div class="switch d-flex">
+                        <div class="toggle-switch" onclick="this.classList.toggle('active')">
+                            <div class="inner-circle"></div>
+                        </div>
+                    </div>
+
             <div class="btn2">
                 <span class="fas fa-search"></span>
                 <!-- <span class="fas fa-users"></span>
                 <span class="fas fa-times"></span> -->
+            </div>                
             </div>
+
+
             <div class="search">
                 <div class="btn-1">
                     <span class="fas fa-bars xoa"></span>
@@ -167,6 +277,7 @@
 
             </ul>
         </nav> 
+        
 
 <div id="slides" class="carousel slide" data-ride="carousel">
     <ul class="carousel-indicators">
@@ -174,7 +285,7 @@
         <li data-target="#slides" data-slide-to="1" class=""></li>
         <li data-target="#slides" data-slide-to="2" class=""></li>
     </ul>
-    <div class="carousel-inner" style="max-height: 90vh;">
+    <div class="carousel-inner" style="max-height: 60vh;">
         <div class="carousel-item active">
             <img src="sieuthoat2.jpg" alt="">
             <div class="carousel-caption">
@@ -215,13 +326,9 @@
         <div class="row">
             <div class="col-lg-8 col-md-12 col-sm-12">
                 <div class="coment">
-                    <div class="switch d-flex" id="switch">
-                        <div class="toggle-switch" onclick="this.classList.toggle('active')">
-                            <div class="inner-circle"></div>
-                        </div>
-                    </div>
+
                     <div class="titi">
-                        <a href="index2.html" class="hover-black"><img src="https://i.imacdn.com/vg/2020/07/11/cc19cb130966ac62_738971ccaa7207f8_12043615944704018118684.jpg" alt="" class="hai"></a>
+                        <a href="index2.html" class="hover-black"><img src="https://i.imacdn.com/ta/2020/07/19/3d89ae51f4615bc5_eb074baeb68648b1_7308515951750034185710.jpg" alt="" class="hai"></a>
                          <span class="title">
                              <a href="#" class="tin-tuc">
                                  <h1>ANIME</h1>
@@ -815,36 +922,6 @@ Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso
     </div>      
 </div>
     <script src="main.js"></script>
-    <script>
-            //Darkmode
-    let darkMode = localStorage.getItem('darkMode');
-    const darkModeToggle = document.querySelector('#switch');
 
-    const enableDarkMode = () => {
-        document.body.classList.add('darkmode');
-        localStorage.setItem('darkMode', 'enabled')
-    }
-
-    const disableDarkMode = () => {
-        document.body.classList.remove('darkmode');
-        localStorage.setItem('darkMode', null)
-    }
-
-    //tuy chinh load trang co darkmode khong
-    if(darkMode === 'enabled'){
-        enableDarkMode();
-    }
-
-    darkModeToggle.addEventListener('click', () =>{
-        darkMode = localStorage.getItem('darkMode')
-        if(darkMode !== 'enabled'){
-            enableDarkMode();
-        }
-        else{
-            disableDarkMode();
-        }
-    })
-
-    </script>
 </body>
 </html>

@@ -84,9 +84,16 @@
                   <input type="text" required="" placeholder="Nhập để tìm kiếm">
                   <div class="underline"></div>
                 </div>
-                    <a href="https://trieu.netlify.app/" class="box-user">
+                <div class="d-flex">
+                    <div class="switch d-flex">
+                        <div class="toggle-switch" onclick="this.classList.toggle('active')">
+                            <div class="inner-circle"></div>
+                        </div>
+                    </div>
+                    <button class="box-user">
                       <i class="fas fa-user"></i>
-                    </a>
+                    </button>
+                </div>
             </div>                   
         </div>
 
@@ -105,11 +112,21 @@
                 <img src="https://thegioidohoa.com/wp-content/uploads/2017/10/nhung-mau-logo-thiet-ke-cong-ty-xay-dung-dep-ban-khong-the-bo-lo-4.png" alt="">
             </a>
 
+            <div class="d-flex">
+                    <div class="switch d-flex">
+                        <div class="toggle-switch" onclick="this.classList.toggle('active')">
+                            <div class="inner-circle"></div>
+                        </div>
+                    </div>
+
             <div class="btn2">
                 <span class="fas fa-search"></span>
                 <!-- <span class="fas fa-users"></span>
                 <span class="fas fa-times"></span> -->
+            </div>                
             </div>
+
+
             <div class="search">
                 <div class="btn-1">
                     <span class="fas fa-bars xoa"></span>
@@ -216,11 +233,7 @@
         <div class="row">
             <div class="col-lg-8 col-md-12 col-sm-12">
                 <div class="coment">
-                    <div class="switch d-flex" id="switch">
-                        <div class="toggle-switch" onclick="this.classList.toggle('active')">
-                            <div class="inner-circle"></div>
-                        </div>
-                    </div>
+
 
                 <div class="full-box">   
                     <div class="container title-note">
@@ -654,36 +667,6 @@ Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso
     </div>      
 </div>
     <script src="main.js"></script>
-    <script>
-            //Darkmode
-    let darkMode = localStorage.getItem('darkMode');
-    const darkModeToggle = document.querySelector('#switch');
 
-    const enableDarkMode = () => {
-        document.body.classList.add('darkmode');
-        localStorage.setItem('darkMode', 'enabled')
-    }
-
-    const disableDarkMode = () => {
-        document.body.classList.remove('darkmode');
-        localStorage.setItem('darkMode', null)
-    }
-
-    //tuy chinh load trang co darkmode khong
-    if(darkMode === 'enabled'){
-        enableDarkMode();
-    }
-
-    darkModeToggle.addEventListener('click', () =>{
-        darkMode = localStorage.getItem('darkMode')
-        if(darkMode !== 'enabled'){
-            enableDarkMode();
-        }
-        else{
-            disableDarkMode();
-        }
-    })
-
-    </script>
 </body>
 </html>

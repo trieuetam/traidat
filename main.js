@@ -34,7 +34,8 @@ $('i.x').click(function(){
 });
 
 $('.dark').click(function(){
-    $(this).toggleClass('on');
+    $(this).removeClass('on');
+            $('.wrapper').removeClass("ledsd"); 
     $('.sidebar').toggleClass('active');
     $('span.xoa').toggleClass('v');
     $('i.xoa').toggleClass('y');
@@ -50,3 +51,60 @@ $('.serv-btn').click(function(){
     $('nav ul .second').toggleClass('rotate')
 });
 
+
+
+    $(window).ready (function(){
+      $('.box-user').click(function(){
+        $('.wrapper').toggleClass("ledsd")
+            $('.dark').toggleClass('on');  
+    });
+        $('#log-click1').click(function(){
+            $('.dark').removeClass('on');
+        $('.wrapper').toggleClass("ledsd")});  
+    
+    });
+
+    var x = document.getElementById("login");
+        var y = document.getElementById("register");
+        var z = document.getElementById("login2");
+
+        function register(){
+            x.style.left = "-120%"; 
+            y.style.left = "10%";
+            z.style.left = "112%";
+        }
+        function login(){
+            x.style.left = "10%";
+            y.style.left = "120%";
+            z.style.left = "0px";
+        }
+
+
+            //Darkmode
+    let darkMode = localStorage.getItem('darkMode');
+    const darkModeToggle = $('.switch');
+
+    const enableDarkMode = () => {
+        document.body.classList.add('darkmode');
+        localStorage.setItem('darkMode', 'enabled')
+    }
+
+    const disableDarkMode = () => {
+        document.body.classList.remove('darkmode');
+        localStorage.setItem('darkMode', null)
+    }
+
+    //tuy chinh load trang co darkmode khong
+    if(darkMode === 'enabled'){
+        enableDarkMode();
+    }
+
+    darkModeToggle.click(function(){ 
+        darkMode = localStorage.getItem('darkMode')
+        if(darkMode !== 'enabled'){
+            enableDarkMode();
+        }
+        else{
+            disableDarkMode();
+        }
+    });
