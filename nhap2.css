@@ -9,6 +9,9 @@
     color: var(--colorBlack);
     outline: none!important;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     background: #ccc!important;
     overflow-x: hidden;
@@ -222,7 +225,7 @@ i.far.fa-sun:hover{
 }
 
 .box-user{
-  width: 50px;
+  width: 45px;
   height: 40px;
   border-radius: 50%;
   background: gray;
@@ -917,7 +920,7 @@ p.fixxx:hover{
 }
 .carousel-caption{
     bottom: none!important;
-    top: 30%;
+    top: 25%;
     height: 100px;
 }
 .carousel-caption h1{
