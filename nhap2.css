@@ -48,17 +48,28 @@ body{
 }
 
 h1{
-    margin-bottom: .3rem!important; 
+    margin-bottom: .2rem!important; 
     font-size: 1.8rem!important;
+    line-height: none!important;
 }
 h2{
     font-size: 1.5rem!important;
 }
-
+a{
+  color: var(--colorBlack)!important;
+}
+a:hover{
+  color: rgba(0,0,0,0.5)!important;
+}
 .abc{
     width: 10px;
     height: 10px;
     border-radius: 50%;
+}
+.top-1{
+    padding: 2px 0px 0 0;
+    font-size: 13px;
+    color: #676767;
 }
 /*menu mobile & tablet*/
 .status{
@@ -234,7 +245,7 @@ i.far.fa-sun:hover{
   border: none;
 }
 .box-user:hover{
-  background: rgba(0,0,0,0.2);
+  background: rgba(255,255,255,0.1);
   cursor: pointer;
 }
 .box-user i{
@@ -271,10 +282,11 @@ i.far.fa-sun:hover{
   color: white;
   align-items: center;
   transition: .3s;
+  color: white!important;
 }
 .nav ul li a:hover,
 .nav ul li a.active{
-  color: var(--mainColor);;
+  color: var(--mainColor)!important;
 }
 .nav ul ul{
   position: absolute;
@@ -891,10 +903,13 @@ textarea{
 p.fixxx{
     font-size: 15px;
     padding: 10px 0;  
-    color: #007bff;
+    color: var(--colorBlack);
 }
 p.fixxx:hover{
-    color: #0056b3;
+    color: rgba(0,0,0,0.5);
+}
+a.page-link{
+  color: black!important;
 }
 .box-boder:hover{
   margin-top: -10px;
@@ -998,7 +1013,7 @@ h3{
     transition: all 300ms ease-in-out;
 }
 .toggle-switch.active{
-    background: #007bff;
+    background: var(--mainColor);
 }
 .toggle-switch.active > .inner-circle{
     margin-left: 20px;
@@ -1010,7 +1025,7 @@ h3{
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background: var(--colorBlack);
+  background: var(--mainColor);
   display: flex;
   justify-content: center;
   margin: 20px auto;
@@ -1035,7 +1050,7 @@ button#log-click1 {
     cursor: pointer;
 }
 button#log-click1:hover{
-  background: rgba(0,0,0,0.2);
+  background: rgba(255,255,255,0.2);
 }
 .wrapper{
   position: fixed;
@@ -1043,7 +1058,7 @@ button#log-click1:hover{
   width: 450px;
   height: 100%;
   margin-top: 50px;
-  background: var(--backgroundWhite);
+  background: var(--colorWhite);
   padding: 30px;
   right: -500px;
   top: 0;
@@ -1134,7 +1149,7 @@ i.fab.fa-google-plus-g {
   cursor: pointer;
   height: 35px;
   margin-bottom: 15px;
-  border: 1px solid var(--colorBlack);
+  border: none;
   background: var(--mainColor);
 }
 .block:hover{
@@ -1158,14 +1173,19 @@ i.fas.fa-lock{
 .pad{
   padding: 0 5px;
 }
+.bg-fb{
+  background : #3f48cc;
+}
+.bg-gg{
+  background: #C23321;
+}
 .login,.register{
     position: relative;
     margin: 0 10px;
     width: 50%;
     text-align: center;
     cursor: pointer;
-    border: 1px solid rgba(0,0,0,0.3);
-    background: orange;
+    background: var(--mainColor);
 }
 .flex{
   display: flex;

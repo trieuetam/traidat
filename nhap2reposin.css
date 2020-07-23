@@ -173,6 +173,7 @@ span.form:hover{
     }
     .big-node{
         font-size: 30px;
+        padding: 0;
     }
 
 }
@@ -204,7 +205,8 @@ span.form:hover{
     }
 .x1{
     box-shadow: none;
-    width: 100%;    
+    width: 100%;   
+    overflow: hidden; 
 }
     .role{
         display: flex;
