@@ -76,5 +76,9 @@ i.far.fa-comment-alt.px-1.pt-1{
 	color: white;
 }
 .d-flex.justify-content-center{
-	margin: 10px 0;
+	margin: 10px 0 0 0;
+}
+i.far.fa-sticky-note.px-1.pt-1,
+i.far.fa-comment-alt.px-1.pt-1 {
+    padding-top: 5px!important;
 }
