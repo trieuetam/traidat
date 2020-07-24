@@ -203,11 +203,11 @@ span.form:hover{
         box-shadow: none;
         padding: 20px 0 0 0;
     }
-.x1{
+    .x1{
     box-shadow: none;
     width: 100%;   
     overflow: hidden; 
-}
+    }
     .role{
         display: flex;
         font-size: 20px;
@@ -255,12 +255,14 @@ span.form:hover{
 
     }
 
-    .carousel-caption h1{
-        font-size: 22px;
-    }
+
     .carousel-caption h3{
-        font-size: 15px;
+        overflow-y: scroll!important;
+        font-size: 1.3rem;
     }
+.toggle-switch{
+    margin-right:5px ; 
+}
 
     button.btn.btn-outline-light.btn-lg.text-dark,
     button.btn.btn-primary.btn-lg
@@ -278,5 +280,10 @@ span.form:hover{
         display: none;
     }
 
-
+    i.fas.fa-user.left, i.fas.fa-clock.left{
+        margin: 5px 0 0 0;
+    }
+    span.time{
+        padding: 0;
+    }
 } 

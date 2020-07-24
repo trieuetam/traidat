@@ -48,8 +48,8 @@ body{
 }
 
 h1{
-    margin-bottom: .2rem!important; 
-    font-size: 1.8rem!important;
+    margin-bottom: 5px!important; 
+    font-size: 1rem!important;
     line-height: none!important;
 }
 h2{
@@ -240,7 +240,7 @@ i.far.fa-sun:hover{
   height: 40px;
   border-radius: 50%;
   background: gray;
-  margin-left: 10px;
+  margin-left: 5px;
   outline: none;
   border: none;
 }
@@ -558,7 +558,6 @@ ul.list li .list-click span.rotate{
     display: flex;
     width: 100%;
     height: auto;
-    padding: 10px 0;
     margin: 10px auto;
     position: relative;
 }
@@ -947,6 +946,7 @@ a.page-link{
     text-shadow: 1px 1px 5px #000;
     padding-bottom: 1rem;
 }
+
 .jumbotron{
     padding: 1rem!important;
     border-right: 0;
