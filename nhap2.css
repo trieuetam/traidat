@@ -75,6 +75,30 @@ a:hover{
 .status{
     display: none;
 }
+/*Go to top*/
+.go-to-top{
+  position: fixed;
+  display: none;
+  z-index: 1001;
+  right: 0;
+  bottom: 0;
+  width: 40px;
+  margin: 10px;
+  height: 40px;
+  background: rgba(0,0,0,0.2);
+  box-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+  border-radius: 50%; 
+  cursor: pointer;
+}
+.go-to-top:hover{
+  background: rgba(0,0,0,0.1);
+}
+i.fas.fa-arrow-up{
+    margin: 12px 13px;
+}
+
+
+
 
 /*menu pc*/
 .status-pc{
@@ -82,8 +106,10 @@ a:hover{
     z-index: 1000;
     width: 100%;
     height: 50px;
-    background: #444;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5)
+    transition: 0.3s
+}
+.status-pc.sticky{
+  background: #444;
 }
 .full-pc{
     width: 1200px;
@@ -981,9 +1007,7 @@ i.fab.fa-vuejs{
 h3{
     line-height: none;
 }
-.carousel{
-  margin-top: 50px; 
-}
+
 
 .darkmode{
     --colorBlack: white;

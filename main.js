@@ -108,3 +108,25 @@ $('.serv-btn').click(function(){
             disableDarkMode();
         }
     });
+
+
+//status-pc sticky && go to top
+
+    
+   //sticky
+   window.addEventListener("scroll", function(){
+        $(".status-pc").toggleClass("sticky", window.scrollY > 0);
+
+        //go to top
+        var showGoToTop = 700;
+        if($(this).scrollTop() >= showGoToTop){
+            $(".go-to-top").fadeIn();       
+        }else{
+            $(".go-to-top").fadeOut();        
+        }
+
+    });
+
+   $(".go-to-top").click(function(){
+        $('html, body').animate({ scrollTop: 0 });
+   });
