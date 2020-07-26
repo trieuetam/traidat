@@ -70,13 +70,13 @@ $('.serv-btn').click(function(){
         var z = document.getElementById("login2");
 
         function register(){
-            x.style.left = "-120%"; 
-            y.style.left = "10%";
+            x.style.left = "-100%"; 
+            y.style.right = "10%";
             z.style.left = "112%";
         }
         function login(){
             x.style.left = "10%";
-            y.style.left = "120%";
+            y.style.right = "-100%";
             z.style.left = "0px";
         }
 

@@ -122,10 +122,10 @@ i.fas.fa-arrow-up{
 @import url(<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">);
 .logo{
   color: var(--colorWhite);
-  font-size: 20px;
+  font-size: 25px;
   max-width: 200px;
   height: 50px;
-  padding: 10px;
+  padding: 6px 10px;
   font-family: 'Pacifico', sans-serif;
   
 }
@@ -1244,7 +1244,7 @@ i.fas.fa-lock{
 #register{
   top: 85px;
   position: absolute;
-  left: -100%;
+  right: -100%;
   width: 80%;
   transition: 0.5s;
 }

@@ -180,7 +180,8 @@ span.form:hover{
     /*Logo*/
     .logo{
         height: 40px;
-        padding: 5px;
+        padding: 3px 0;
+            margin-left: 40px;
     }
     /*End logo*/
     .box-user {
@@ -301,5 +302,8 @@ span.form:hover{
 
     .wrapper {
         width: 100%;
+    }
+    #login{
+        overflow-y: scroll;
     }
 } 
