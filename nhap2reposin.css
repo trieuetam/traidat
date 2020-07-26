@@ -171,7 +171,7 @@ span.form:hover{
 
     /*card view*/
     .card-view{
-    max-width: 120px;height: 120px;
+    max-width: 100px;height: 100px;
     background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRJRvXtbLz-_QeaGvR7dT7iTSZljqXYT15pqA&usqp=CAU);
     background-size: cover;
     border-radius: 50%;display: flex;justify-content: center;margin: 30px auto 10px auto;
@@ -183,6 +183,11 @@ span.form:hover{
         padding: 5px;
     }
     /*End logo*/
+    .box-user {
+        width: 40px;
+        height: 35px;
+        margin-top: 2px;
+    }
 }
 
 /* Tablet */
@@ -294,5 +299,7 @@ span.form:hover{
         padding: 0;
     }
 
-
+    .wrapper {
+        width: 100%;
+    }
 } 

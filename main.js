@@ -36,7 +36,8 @@ $('i.x').click(function(){
 $('.dark').click(function(){
     $(this).removeClass('on');
             $('.wrapper').removeClass("ledsd"); 
-    $('.sidebar').toggleClass('active');
+    $('.sidebar').removeClass('active');
+
     $('span.xoa').toggleClass('v');
     $('i.xoa').toggleClass('y');
 });
