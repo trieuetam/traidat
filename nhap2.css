@@ -55,12 +55,12 @@ h1{
 h2{
     font-size: 1.5rem!important;
 }
-a{
+/*a{
   color: var(--colorBlack)!important;
 }
 a:hover{
   color: rgba(0,0,0,0.5)!important;
-}
+}*/
 .abc{
     width: 10px;
     height: 10px;
@@ -80,8 +80,8 @@ a:hover{
   position: fixed;
   display: none;
   z-index: 1001;
-  right: 0;
-  bottom: 0;
+  right: 10px;
+  bottom: 10px;
   width: 40px;
   margin: 10px;
   height: 40px;
@@ -118,11 +118,39 @@ i.fas.fa-arrow-up{
     justify-content: space-between;
     height: 100%;
 }
-.nav-bar{
-    display: flex;
-    width: auto;
-    height: 100%;
+/*Logo*/
+@import url(<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">);
+.logo{
+  color: var(--colorWhite);
+  font-size: 20px;
+  max-width: 200px;
+  height: 50px;
+  padding: 10px;
+  font-family: cursive;
+  
 }
+
+.css-logo {
+  font-family: 'Pacifico', sans-serif;
+  font-weight:  100;
+  text-align: center;
+  color: #f35626;
+  background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: hue 10s infinite linear;
+}
+
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
+/*Hết Logo*/
+
 .botom-o{
     margin-top: -5px!important;
     margin-left: 0px!important;
@@ -166,10 +194,6 @@ ul.list li.items a.des
     padding-right: 10px;
     height: 50px;
     line-height: 50px;
-}
-.nav-bar a.red img{
-    width: 150px;
-    height: 100%;
 }
 
 i.far.fa-sun{
@@ -281,13 +305,7 @@ i.far.fa-sun:hover{
 }
 
 /*css cho .menu*/
-.nav .logo{
-  color: white;
-  font-size: 33px;
-  font-weight: bold;
-  line-height: 70px;
-  padding-left: 110px;
-}
+
 .nav{
   height: 50px;
   width: 100%;
@@ -1006,6 +1024,7 @@ i.fab.fa-vuejs{
 }
 h3{
     line-height: none;
+    font-size: 1.3rem!important; 
 }
 
 
