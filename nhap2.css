@@ -41,7 +41,7 @@ body{
 }
 
 .grid{
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
     background: var(--colorWhite);
     box-shadow: 0 0 5px rgba(0,0,0,1);
@@ -49,8 +49,14 @@ body{
 
 h1{
     margin-bottom: 5px!important; 
-    font-size: 25px!important;
     line-height: none!important;
+}
+.notify-content{
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.user{
+  display: flex;
 }
 h2{
     font-size: 1.5rem!important;
@@ -646,6 +652,7 @@ a{
 
 .time{
     display: inline-flex;
+    margin-left: 5px;
     color: var(--colorBlack);
 }
 
@@ -653,7 +660,8 @@ a{
 i.fas.fa-user.left,
 i.fas.fa-clock.left
 {
-    margin: 5px 0 0 5px;
+    margin: 5px 0 0 0px;
+    font-size: 20px;
 }
 span.time{
     padding: 0 5px 0 5px;

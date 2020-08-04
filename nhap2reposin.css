@@ -246,7 +246,7 @@ span.form:hover{
         display: flex;
         font-size: 20px;
         padding-bottom: 5px;
-        font-size: 17px;
+        font-size: 15px;
     }
     h1{
         font-size: 25px;
@@ -314,7 +314,7 @@ span.form:hover{
     }
 
     i.fas.fa-user.left, i.fas.fa-clock.left{
-        margin: 5px 0 0 0;
+        font-size: 13px;
     }
     span.time{
         padding: 0;
