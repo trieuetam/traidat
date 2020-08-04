@@ -40,7 +40,7 @@ body{
     --backgroundCustom: #bfbfbf;
 }
 
-.x1{
+.grid{
     width: 1200px;
     margin: 0 auto;
     background: var(--colorWhite);
@@ -49,7 +49,7 @@ body{
 
 h1{
     margin-bottom: 5px!important; 
-    font-size: 1rem!important;
+    font-size: 25px!important;
     line-height: none!important;
 }
 h2{
@@ -335,7 +335,6 @@ i.far.fa-sun:hover{
 .nav ul ul{
   position: absolute;
   top: 85px;
-  border-top: 1px solid black;
   opacity: 0;
   visibility: hidden;
 }
@@ -350,7 +349,7 @@ i.far.fa-sun:hover{
   display: list-item;
   position: relative;
   background-color: #444;
-  border-bottom: 1px solid rgba(0,0,0,0.5);
+  border-bottom: 1px solid rgba(255,255,255,0.1);
   border-top: none;
 }
 /*.nav ul ul li a{
@@ -371,9 +370,7 @@ i.far.fa-sun:hover{
   top: -50.7px;
   left: 150px;
 }
-.nav ul ul ul li:first-child{
-    border-top: 1px solid rgba(0,0,0,0.5);
-}
+
 .nav ul ul li a i{
   margin-left: 45px;
 }
@@ -1084,17 +1081,16 @@ hr {
   margin: 20px 0;
 }
 
-button#log-click1 {
-    width: 40px;
-    top: 0;
+i#log-click1 {
+    top: 5px!important;
+    left: 10px!important;
+    color: var(--colorBlack);
     position: absolute;
-    left: 0;
-    border: none;
-    color: black;
+    font-size: 25px;
     cursor: pointer;
 }
-button#log-click1:hover{
-  background: rgba(255,255,255,0.2);
+i#log-click1:hover{
+  color: var(--mainColor);
 }
 .wrapper{
   position: fixed;

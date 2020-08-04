@@ -1,3 +1,16 @@
+:root{
+    /* Màu chuyển */
+    
+    /* Giao dien toi */
+    --mainColor: orange!important;
+    --mainBackground: orange!important;
+    --colorWhite: white!important;
+    --colorBlack: black!important;
+    --backgroundDarkMode: #333!important;
+    --backgroundWhite: white!important; 
+    --backgroundCustom: #bfbfbf;
+}
+
 /* Mobile & Tablet */
 @media (max-width: 992px){
     .carousel-caption{
@@ -172,11 +185,18 @@ span.form:hover{
     /*card view*/
     .card-view{
     max-width: 100px;height: 100px;
-    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRJRvXtbLz-_QeaGvR7dT7iTSZljqXYT15pqA&usqp=CAU);
+    background: url(https://scontent-xsp1-2.xx.fbcdn.net/v/t1.0-9/104999718_1177802792564723_8674589616926850162_n.jpg?_nc_cat=100&_nc_sid=09cbfe&_nc_ohc=LrZ4UbJ7d98AX9UDGiI&_nc_ht=scontent-xsp1-2.xx&oh=c1338299c31a817c9278ff4268e46646&oe=5F4D6414);
     background-size: cover;
     border-radius: 50%;display: flex;justify-content: center;margin: 30px auto 10px auto;
     }
-
+    .card-view::after{
+        content: '';
+        width: 100px;
+        height: 100px;
+        border: 3px solid var(--colorBlack);
+        border-radius: 50%;
+        background: transparent;
+    }
     /*Logo*/
     .logo{
         height: 40px;
@@ -185,7 +205,7 @@ span.form:hover{
     }
     /*End logo*/
     .box-user {
-        width: 40px;
+        width: 35px;
         height: 35px;
         margin-top: 2px;
     }
