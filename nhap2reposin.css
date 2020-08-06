@@ -22,9 +22,9 @@
     .x1{
         width: 100%;
     }
-    .none{
+/*    .none{
         display: none!important;
-    }
+    }*/
     .status-pc{
         display: none;
     }
@@ -325,5 +325,8 @@ span.form:hover{
     }
     #login{
         overflow-y: scroll;
+    }
+    .image-effect_test {
+        height: 250px;
     }
 } 
