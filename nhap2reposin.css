@@ -22,9 +22,9 @@
     .x1{
         width: 100%;
     }
-/*    .none{
+    .none{
         display: none!important;
-    }*/
+    }
     .status-pc{
         display: none;
     }
@@ -235,7 +235,8 @@ span.form:hover{
     }
     .coment{
         box-shadow: none;
-        padding: 20px 0 0 0;
+        padding-top: 20px;
+        padding-left: none;
     }
     .x1{
         box-shadow: none;
@@ -326,7 +327,5 @@ span.form:hover{
     #login{
         overflow-y: scroll;
     }
-    .image-effect_test {
-        height: 250px;
-    }
+
 } 
