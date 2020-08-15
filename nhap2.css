@@ -845,7 +845,8 @@ footer{
   width: 40px;
   line-height: 40px;
   text-align: center;
-  font-size: 18px;
+  font-size: 25px;
+  color: white;
   border-radius: 5px;
   transition: 0.3s;
 }
@@ -875,6 +876,7 @@ span.fab.fa-youtube{
   line-height: 45px;
   text-align: center;
   border-radius: 50%;
+  color: white;
   transition: 0.3s;
   cursor: pointer;
 }
@@ -1116,7 +1118,7 @@ i#log-click1:hover{
 }
 .wrapper{
   position: fixed;
-  z-index: 2;
+  z-index: 9992;
   width: 450px;
   height: 100%;
   margin-top: 50px;

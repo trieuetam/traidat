@@ -330,9 +330,10 @@ span.form:hover{
 
     .wrapper {
         width: 100%;
-    }
-    #login{
+        padding: 10px 0;
         overflow-y: scroll;
     }
-
+    .login-form{
+        margin-top: 25px;
+    }
 } 
