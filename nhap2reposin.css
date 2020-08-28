@@ -185,7 +185,7 @@ span.form:hover{
     /*card view*/
     .card-view{
     max-width: 100px;height: 100px;
-    background: url(https://scontent-xsp1-2.xx.fbcdn.net/v/t1.0-9/104999718_1177802792564723_8674589616926850162_n.jpg?_nc_cat=100&_nc_sid=09cbfe&_nc_ohc=LrZ4UbJ7d98AX9UDGiI&_nc_ht=scontent-xsp1-2.xx&oh=c1338299c31a817c9278ff4268e46646&oe=5F4D6414);
+    background: url(https://scontent-sin6-2.xx.fbcdn.net/v/t1.0-9/118004610_1224927524518916_7545531362921983475_n.jpg?_nc_cat=109&_nc_sid=09cbfe&_nc_ohc=2zyg-yQyjGEAX-kN1JN&_nc_ht=scontent-sin6-2.xx&oh=6a2e3b7d68c7e561e7f30558f62618ef&oe=5F6FC052);
     background-size: cover;
     border-radius: 50%;display: flex;justify-content: center;margin: 30px auto 10px auto;
     }
@@ -193,7 +193,7 @@ span.form:hover{
         content: '';
         width: 100px;
         height: 100px;
-        border: 3px solid var(--colorBlack);
+        border: 3px solid white;
         border-radius: 50%;
         background: transparent;
     }
@@ -224,7 +224,7 @@ span.form:hover{
 /* Mobile */
 @media (max-width: 739px){
     .sidebar{
-        width: 70%;
+        width: 85%;
         overflow-y: scroll;
         overflow-x: hidden;
     }
@@ -254,7 +254,7 @@ span.form:hover{
         display: flex;
         font-size: 20px;
         padding-bottom: 5px;
-        font-size: 15px;
+        font-size: 13px;
     }
     h1{
         font-size: 25px;
@@ -322,7 +322,7 @@ span.form:hover{
     }
 
     i.fas.fa-user.left, i.fas.fa-clock.left{
-        font-size: 13px;
+        font-size: 10px;
     }
     span.time{
         padding: 0;
