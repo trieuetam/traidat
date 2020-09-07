@@ -9,6 +9,10 @@
   color: var(--colorBlack);
   outline: none!important;
 }
+*::selection {
+    background: var(--mainColor);
+    color: var(--colorBlack);
+}
 html{
   scroll-behavior: smooth;
 }
@@ -343,7 +347,6 @@ padding: 0 10px;
 .nav ul li a{
 color: white;
 align-items: center;
-transition: .3s;
 color: white!important;
 }
 .nav ul li a:hover,
