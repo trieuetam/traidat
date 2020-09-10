@@ -13,8 +13,11 @@
 
 /* Mobile & Tablet */
 @media (max-width: 992px){
-    .carousel-caption{
-        margin-top: 0;
+    .col-lg-8.col-md-12.col-sm-12{
+        padding-top: 50px!important;
+    }
+    .carousel{
+        display: none;
     }
     .titi a.hover-black:hover::after{
         display: none;
@@ -162,9 +165,7 @@ span.form:hover{
     color: orange;
 }
 
-    .carousel-indicators{
-        display: none!important;
-    }
+
 
     ul.d-flex.justify-content-center.mt-3{
         display: block!important;
@@ -296,10 +297,6 @@ span.form:hover{
     }
 
  
-    .carousel-caption h3{
-        overflow-y: scroll!important;
-        max-height: 75px;
-    }
 
     .toggle-switch{
         margin-right:5px ; 

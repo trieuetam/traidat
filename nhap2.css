@@ -1020,6 +1020,7 @@ color: black!important;
   bottom: none!important;
   top: 25%;
   height: 100px;
+  text-align: left!important;
 }
 .carousel-caption h1{
   text-shadow: 1px 1px 15px #000;
