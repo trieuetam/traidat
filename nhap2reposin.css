@@ -331,6 +331,6 @@ span.form:hover{
         margin-top: 25px;
     }
     img.d-flex.mx-auto {
-        width: auto;
+        width: 100%;
     }
 } 
