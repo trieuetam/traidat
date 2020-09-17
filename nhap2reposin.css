@@ -330,4 +330,7 @@ span.form:hover{
     .login-form{
         margin-top: 25px;
     }
+    img.d-flex.mx-auto {
+        width: auto;
+    }
 } 
