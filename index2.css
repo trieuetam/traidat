@@ -86,3 +86,7 @@ i.far.fa-sticky-note.px-1.pt-1,
 i.far.fa-comment-alt.px-1.pt-1 {
     padding-top: 5px!important;
 }
+img.d-flex.mx-auto {
+    width: 400px;
+    height: auto;
+}
