@@ -126,12 +126,13 @@ $('.serv-btn').click(function(){
             $(".go-to-top").fadeOut();        
         }
 
+        $('.nav ul ul li').toggleClass('bg-444', window.scrollY > 0);
+
     });
 
    $(".go-to-top").click(function(){
         $('html, body').animate({ scrollTop: 0 });
    });
-
 
 
    $('.carousel').carousel({
