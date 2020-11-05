@@ -135,6 +135,15 @@ $('.serv-btn').click(function(){
    });
 
 
+//Carousel
    $('.carousel').carousel({
     interval: 2000
   })
+
+//progress
+$(document).ready(function(){
+    $('.counter').counterUp({
+      delay: 10,
+      time: 1200
+    });
+  });
